@@ -1,0 +1,61 @@
+/* Center the app content and add some basic styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Header styles */
+.App-header {
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-logo {
+  height: 80px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.App-header p {
+  font-size: 1.1rem;
+  color: #61dafb;
+}
+
+/* Main form section */
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer styling */
+.App-footer {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #e5e7eb;
+  width: 100%;
+}
+
+/* Animation for logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
